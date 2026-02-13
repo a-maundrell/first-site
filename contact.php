@@ -83,7 +83,7 @@
                             <img src="assets/form-scenery.jpg" alt="Scenery" class="img-fluid">
                         </label>
                     </div>
-                    <button type="submit" class="btn btn-success float-end px-4 py-2 mb-3 fs-5" disabled>Send!</button>
+                    <button type="submit" class="btn btn-success float-end px-4 py-2 mb-3 fs-5" disabled>Disabled</button>
                 </form>
             </div>
         </div>
