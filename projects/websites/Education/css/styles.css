@@ -1,0 +1,40 @@
+.logo {
+    width: 100px;
+}
+
+.feature-item img {
+    width: 130px;
+    height: auto;
+}
+
+.altered-size img {
+    height: 80px;
+    width: auto;
+}
+
+.subscribe {
+    background-image: url(../img/subscribe-background.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.brand-icon img {
+    width: 100px;
+    height: auto;
+}
+
+.blur-filter {
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+@media screen and (max-width: 767px) {
+    .home-content-text {
+        order: 2;
+    }
+
+    .home-content-image {
+        order: 1;
+        margin-bottom: 1rem;
+    }
+}

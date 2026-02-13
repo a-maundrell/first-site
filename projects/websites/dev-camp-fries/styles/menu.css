@@ -1,0 +1,13 @@
+.square-text-wrapper>.anchor-link {
+    text-decoration: none;
+}
+
+.square-text-wrapper>.anchor-link:focus {
+    outline: none;
+}
+
+.square-text-wrapper>.anchor-link h1::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: " \f0c1";
+}
